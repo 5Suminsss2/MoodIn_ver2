@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg {
+  display: flex;
+  height: 100%;
+}
+
+.bg1 {
+  width: 40%;
+  background-color: #3edbf0;
+}
+
+.bg2 {
+  width: 30%;
+  background-color: #f0ebcc;
+}
+
+.bg3 {
+  width: 30%;
+  background-color: rgb(214, 145, 65);
+}
+
+.square {
+  display: none;
+  width: 300px;
+  height: 300px;
+  border: 8px solid honeydew;
+  margin-top: 30%;
+  margin-left: 27%;
+  font-size: 70px;
+  color: honeydew;
+  text-align: center;
+}
+
+.square p {
+  margin-top: 50px;
+}
+.bg1:hover {
+  width: 100%;
+  transition-duration: 2s;
+}
+.bg1:hover > .square {
+  display: block;
+}
+.bg2:hover {
+  width: 100%;
+  transition-duration: 2s;
+}
+.bg2:hover > .square {
+  display: block;
+}
+.bg3:hover {
+  width: 100%;
+  transition-duration: 2s;
+}
+.bg3:hover > .square {
+  display: block;
+}

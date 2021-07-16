@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  font-family: Lato, sans-serif;
+  --col-deepblue: #4478e3;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+  margin: 0;
+}
+footer div {
+  background-color: var(--col-deepblue);
+  margin: -5px 0px 0px 0px;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+}
+svg {
+  width: 100%;
+  overflow: visible;
+}
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count: infinite;
+  fill: #4478e3;
+}
+.gooeff {
+  filter: url(#goo);
+}
+#wave1 {
+  animation-duration: 3s;
+  animation-direction: reverse;
+  fill: rgb(111, 103, 214);
+}
+#wave2 {
+  animation-duration: 5s;
+  animation-direction: reverse;
+  fill: rgb(111, 103, 214);
+  opacity: 0.6;
+}
+#wave3 {
+  animation-duration: 7s;
+  fill: rgb(111, 103, 214);
+  opacity: 0.3;
+}
+@keyframes wave {
+  to {
+    transform: translateX(-100%);
+  }
+}

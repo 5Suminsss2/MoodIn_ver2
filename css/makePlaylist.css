@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+}
+
+p {
+  font-family: "Noto Sans KR", sans-serif;
+  color: rgb(48, 48, 48);
+}
+
+.input_space {
+  margin-top: 10%;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  border-radius: 20px 20px 20px 20px;
+  border-color: rgba(94, 80, 80, 0.267);
+}
+
+input:focus {
+  outline: none;
+}
+
+img {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.music_set {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.music_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(196, 207, 255, 0.842);
+  height: 10vh;
+  width: 80%;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.add_button {
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+.music_playlist {
+  z-index: 2;
+  position: relative;
+}
+footer {
+  z-index: 1;
+}

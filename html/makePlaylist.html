@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/wave.css">
+    <link rel="stylesheet" href="../css/makePlaylist.css">
+</head>
+<body>
+    <div class="input_space" >
+        <input placeholder="Search the music...">
+        
+      </div>
+
+      <div class="music_playlist">
+        <div class="music_set">
+            <div class="music_list">
+                <img src="../img/이오데.jpg" alt="" class="album_art">
+                <p>always think about you</p>
+                <p>Even of Day</p>
+                <button><img class="add_button" src="../img/button.png"></button>
+            </div>
+            
+        </div>
+        <div class="music_set">
+          <div class="music_list">
+              <img src="../img/이오데.jpg" alt="" class="album_art">
+              <p>always think about you</p>
+              <p>Even of Day</p>
+              <button><img class="add_button" src="../img/button.png"></button>
+          </div>
+        </div>
+        <div class="music_set">
+          <div class="music_list">
+              <img src="../img/이오데.jpg" alt="" class="album_art">
+              <p>always think about you</p>
+              <p>Even of Day</p>
+              <button><img class="add_button" src="../img/button.png"></button>
+          </div>
+          
+      </div>
+      <div class="music_set">
+        <div class="music_list">
+            <img src="../img/이오데.jpg" alt="" class="album_art">
+            <p>always think about you</p>
+            <p>Even of Day</p>
+            <button><img class="add_button" src="../img/button.png"></button>
+        </div>
+      </div>
+      </div>
+      
+
+    <footer>
+        <svg viewBox="0 0 120 28" height="600" >
+         <defs> 
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="
+                   1 0 0 0 0  
+                   0 1 0 0 0  
+                   0 0 1 0 0  
+                   0 0 0 13 -9" result="goo" />
+              <xfeBlend in="SourceGraphic" in2="goo" />
+            </filter>
+            <!-- svg알아보기 : https://a11y.gitbook.io/graphics-aria/svg-graphics/svg-paths-shape -->
+             <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 280 h -240 z" />
+            </defs> 
+        
+           <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-10" ></use> 
+           <use id="wave2" class="wave" xlink:href="#wave" x="0" y="-9" ></use>
+           <use id="wave1" class="wave" xlink:href="#wave" x="0" y="-8" ></use>
+         
+          <g class="gooeff" filter="url(#goo)">       
+         </g>  
+        
+        </svg>
+        
+      </footer>
+</body>
+</html>
